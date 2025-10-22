@@ -1,0 +1,65 @@
+/* Основной стиль страницы */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 60px;
+}
+/* Форма */
+.feedback-form {
+  margin-top: 80px;
+  padding: 24px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Заголовки и подписи */
+.feedback-form label {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Поля ввода */
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: 6px;
+  box-sizing: border-box;
+}
+
+/* Кнопка */
+.feedback-form button {
+  margin-top: 16px;
+  padding: 10px 24px;
+  font-size: 16px;
+  background-color: #3f51b5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+  background-color: #303f9f;
+}
